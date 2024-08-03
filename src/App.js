@@ -2,6 +2,7 @@ import NavbarDemo from "./components/FloatingNavbar/Demo"
 import LayoutGridDemo from "./components/LayoutGrid/Demo"
 import ThreeCardDemo from "./components/3dCardEffect/Demo";
 import ExpandableCardDemo from "./components/ExpandableCard/Demo";
+import StickyHoverDemo from "./components/StickyHoverReveal/Demo"
 
 
 export default function App() {
@@ -10,7 +11,8 @@ export default function App() {
       {/* <NavbarDemo /> */}
       {/* <LayoutGridDemo /> */}
       {/* <ThreeCardDemo /> */}
-      <ExpandableCardDemo />
+      {/* <ExpandableCardDemo /> */}
+      <StickyHoverDemo />
     </div>
   )
 }

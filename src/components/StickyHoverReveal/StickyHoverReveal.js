@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import { cn } from "./lib/utils"; // Adjust the path according to your project
+import { cn } from "../../lib/util";
 
 export const StickyScroll = ({
   content,
