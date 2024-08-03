@@ -4,10 +4,10 @@ import ThreeCardDemo from "./components/3dCardEffect/Demo";
 
 export default function App() {
   return (
-    <div className="bg-black" >
-      {/* <NavbarDemo /> */}
+    <div style={{height: "200vh"}} className="bg-black h-200vh" >
+      <NavbarDemo />
       {/* <LayoutGridDemo /> */}
-      <ThreeCardDemo />
+      {/* <ThreeCardDemo /> */}
     </div>
   )
 }
