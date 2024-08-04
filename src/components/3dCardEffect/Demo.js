@@ -1,6 +1,6 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3dCardEffect";
-import Image from "../../Assets/1.jpg"
+import Image from "../../Assets/3.jpeg";
 
 export default function ThreeDCardDemo() {
   return (
@@ -22,9 +22,9 @@ export default function ThreeDCardDemo() {
         <CardItem translateZ="100" className="w-full mt-4">
           <img
             src={Image}
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            height="100px"
+            width="100px"
+            className="h-58 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
