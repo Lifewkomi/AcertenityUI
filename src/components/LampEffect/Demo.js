@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { LampContainer } from "../ui/lamp"; // Ensure this path is correct in your project
+import { LampContainer } from "../LampEffect/LampEffect"; // Ensure this path is correct in your project
 
-export function LampDemo() {
+export default function LampDemo() {
   return (
     <LampContainer>
       <motion.h1

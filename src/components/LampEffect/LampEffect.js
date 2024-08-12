@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils"; // Ensure this utility function is defined in your project
+import{ cn } from "../../lib/util";
 
 export function LampDemo() {
   return (
@@ -24,9 +24,6 @@ export function LampDemo() {
 export const LampContainer = ({
   children,
   className,
-}: {
-  children: React.ReactNode;
-  className?: string;
 }) => {
   return (
     <div

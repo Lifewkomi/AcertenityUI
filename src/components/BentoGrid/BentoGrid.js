@@ -4,9 +4,7 @@ import { cn } from "../lib/utils"; // Adjust the import path to match your proje
 export const BentoGrid = ({
   className,
   children,
-}: {
-  className?: string;
-  children?: React.ReactNode;
+
 }) => {
   return (
     <div
@@ -26,12 +24,6 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
-}: {
-  className?: string;
-  title?: string | React.ReactNode;
-  description?: string | React.ReactNode;
-  header?: React.ReactNode;
-  icon?: React.ReactNode;
 }) => {
   return (
     <div
