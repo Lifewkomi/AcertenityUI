@@ -11,7 +11,7 @@ import SignupFormDemo from "./components/SignupForm/Demo";
 
 export default function App() {
   return (
-    <div className=" h-screen" >
+    <main className="App" >
       {/* <NavbarDemo /> */}
       {/* <LayoutGridDemo /> */}
       {/* <ThreeDCardDemo /> */}
@@ -23,6 +23,6 @@ export default function App() {
       {/* <InfiniteMovingCardsDemo /> */}
       <SignupFormDemo />
 
-    </div>
+    </main>
   )
 }
