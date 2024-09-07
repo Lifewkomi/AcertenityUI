@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../lib/utils"; // Adjust the import path to match your project structure
+import { cn } from "../../lib/util"
 
 export const BentoGrid = ({
   className,

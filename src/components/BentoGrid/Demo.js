@@ -1,6 +1,5 @@
 import React from "react";
-import { cn } from "../lib/utils"; // Adjust the import path to match your project structure
-import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../BentoGrid/BentoGrid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +10,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function BentoGridDemo() {
+export default function BentoGridDemo() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (

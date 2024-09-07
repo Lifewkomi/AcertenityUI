@@ -5,7 +5,9 @@ import ExpandableCardDemo from "./components/ExpandableCard/Demo";
 import StickyHoverDemo from "./components/StickyHoverReveal/Demo"
 import DirectionAwareDemo from "./components/DirectionAware/Demo";
 import LampEffectDemo from "./components/LampEffect/Demo"
-
+import BentoGridDemo from './components/BentoGrid/Demo'
+import InfiniteMovingCardsDemo from "./components/InfiniteMovingCards/Demo";
+import SignupFormDemo from "./components/SignupForm/Demo";
 
 export default function App() {
   return (
@@ -16,7 +18,10 @@ export default function App() {
       {/* <ExpandableCardDemo /> */}
       {/* <StickyHoverDemo /> */}
       {/* <DirectionAwareDemo /> */}
-      <LampEffectDemo />
+      {/* <LampEffectDemo /> */}
+      {/* <BentoGridDemo /> */}
+      {/* <InfiniteMovingCardsDemo /> */}
+      <SignupFormDemo />
 
     </div>
   )
